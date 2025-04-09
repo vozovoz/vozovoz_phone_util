@@ -3,7 +3,7 @@ import UIKit
 import PhoneNumberKit
 
 public class SwiftVozovozPhoneUtilPlugin: NSObject, FlutterPlugin {
-  private let kit = PhoneNumberKit()
+  private let kit = PhoneNumberUtility()
 
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "vozovoz_phone_util", binaryMessenger: registrar.messenger())
