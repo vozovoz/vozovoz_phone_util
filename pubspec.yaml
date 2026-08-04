@@ -1,6 +1,5 @@
 name: vozovoz_phone_util
 description: Парсинг, валидация и форматирование телефонных номеров через libphonenumber (Android) и PhoneNumberKit (iOS).
-
 version: 0.1.0
 homepage:
 
